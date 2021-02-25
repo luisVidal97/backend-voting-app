@@ -1,8 +1,8 @@
 import {Router} from 'express';
 const router = Router();
 
-import { getVideos } from '../controllers/VotingAppController';
+import { getCandidates } from '../controllers/VotingAppController';
 
-router.get('/' , getVideos);
+router.get('/api/getCandidates' , getCandidates);
 
 export default router;
