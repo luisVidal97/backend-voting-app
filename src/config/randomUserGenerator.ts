@@ -23,7 +23,7 @@ createConnection()
                 sentenceUpperBound: 10,  // Max. number of words per sentence.
             });
             const votes = Math.floor(Math.random() * 10) + 1;
-            const age = Math.floor(Math.random() * 10) + 1;
+            const age = Math.floor(Math.random() * 60) + 18;
 
             await connection.getRepository(Candidate)
                         .createQueryBuilder()
