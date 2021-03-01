@@ -2,6 +2,9 @@
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudio,node
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudio,node
 
+
+data/*
+
 ### Node ###
 # Logs
 logs
